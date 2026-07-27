@@ -6,5 +6,9 @@ public class UserService {
         System.out.println("Enter your email: ");
         String email = sc.nextLine();
         System.out.println(email);
+
+        System.out.println("Enter your Id: ");
+        long id = sc.nextLong();
+        System.out.println("ID: " + id + "   Email: " + email);
     }
 }
